@@ -1,0 +1,19 @@
+cmd
+> laravel new project6
+> cd project6
+> composer require laravel/ui
+> php artisan ui bootstrap
+> npm install && npm run dev
+> npm install && npm run dev
+
+Create database: Make sure the name in .env is the same
+
+Open file explorer and go to the project folder
+Copy and paste the files to the project folder
+
+Cmd
+> php artisan migrate
+> php artisan db:seed --class=CafeSeeder
+> php artisan db:seed --class=MenuSeeder
+
+> php artisan serve
