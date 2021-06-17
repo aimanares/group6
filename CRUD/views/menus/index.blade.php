@@ -23,6 +23,8 @@
             <th>No</th>
             <th>Menu Name</th>
             <th>Price</th>
+            <th>Availability</th>
+            <th>Cafe</th>
             <th width="250px">Action</th>
         </tr>
         @foreach ($menus as $menu)
@@ -30,6 +32,8 @@
             <td>{{ ++$i }}</td>
             <td>{{ $menu->menuName }}</td>
             <td>{{ $menu->price }}</td>
+            <td>{{ $menu->availability }}</td>
+            <td>{{ $menu->cafe_id }}</td>
             <td>
                 <form action="{{ route('menus.destroy',$menu->id) }}" method="POST">
    
