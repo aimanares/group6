@@ -13,10 +13,12 @@ class CreateMenusTable extends Migration
      */
     public function up()
     {
-        Schema::create('menus', function (Blueprint $table) {
-            $table->increments('id');
+       Schema::create('menus', function (Blueprint $table) {
+            $table->id();
             $table->string('menuName');
-            $table->text('price');
+            $table->string('price');
+            $table->string('availability');
+            $table->foreignId('cafe_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
