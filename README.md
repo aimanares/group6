@@ -6,4 +6,4 @@
 3. MOHAMMAD AIMAN BIN MOHAMAD ARES - 1817363
 4. WAN AHMAD LUQMAN AL-HAKIM WAN AZMI - 1814213
 
-All codes are inside the ****"1. Updated"**** folder
+All compiled codes are inside the ****"1. Updated"**** folder
