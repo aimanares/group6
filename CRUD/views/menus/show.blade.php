@@ -21,7 +21,19 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Price:</strong>
-                {{ $Menu->price }}
+                {{ $menu->price }}
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Availability:</strong>
+                {{ $menu->availability }}
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Cafe Id:</strong>
+                {{ $menu->cafe_id }}
             </div>
         </div>
     </div>
