@@ -40,6 +40,23 @@
                     <input type="text" name="price" class="form-control" placeholder="price">
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>Availability:</strong>
+                    <input type="text" name="availability" value="{{ $menu->availability }}" class="form-control" placeholder="availability">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>Cafe:</strong>
+                    <select id="cafe_id" name="cafe_id" value="{{ $menu->cafe_id }}" required>
+                        <option value="1">Ali</option>
+                        <option value="2">Bilal</option>
+                        <option value="3">Hafsah</option>
+                        <option value="4">Salahuddin</option>
+                    </select>
+                </div>
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
