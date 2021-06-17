@@ -80,7 +80,7 @@ class MenuController extends Controller
      * @param  \App\Menu  $menu
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Menu $blog)
+    public function update(Request $request, Menu $menu)
     {
         $request->validate([
             'menuName' => 'required',
